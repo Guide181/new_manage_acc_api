@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "name": "manage_account_api",
+    "build": [{
+        "src": "sever.js",
+        "use": "@vercel/node"
+    }],
+    "routes": [{
+        "src": "/(.*)",
+        "dest": "/sever.js"
+    }]
+}
