@@ -1,7 +1,7 @@
 {
     "version": 2,
     "name": "manage_account_api",
-    "build": [{
+    "builds": [{
         "src": "sever.js",
         "use": "@vercel/node"
     }],
